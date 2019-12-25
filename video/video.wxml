@@ -1,0 +1,11 @@
+<!--pages/video/video.wxml-->
+<view class="video-container">
+    <video id="myVideo" src="{{videoUrl}}" show-center-play-btn="{{false}}"
+    controls="{{false}}" autoplay='{{true}}' loop="{{false}}" auto-pause-if-navigate="{{true}}" custom-cache="{{false}}"
+    object-fit="cover">
+    
+  </video>
+  <view class="desc">
+      这是一个视频
+  </view>
+</view>
